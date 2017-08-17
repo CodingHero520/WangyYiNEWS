@@ -15,6 +15,12 @@
 		4F19A68F1F458A3D007D2113 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F19A68D1F458A3D007D2113 /* LaunchScreen.storyboard */; };
 		4F19A69A1F458A3D007D2113 /* WangyYiNEWSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F19A6991F458A3D007D2113 /* WangyYiNEWSTests.m */; };
 		4F19A6A51F458A3D007D2113 /* WangyYiNEWSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F19A6A41F458A3D007D2113 /* WangyYiNEWSUITests.m */; };
+		4F19A6C81F45949C007D2113 /* FocusNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F19A6C71F45949C007D2113 /* FocusNewsViewController.m */; };
+		4F19A6CB1F4594CE007D2113 /* LiveBroadcastViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F19A6CA1F4594CE007D2113 /* LiveBroadcastViewController.m */; };
+		4F19A6CE1F4594F3007D2113 /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F19A6CD1F4594F3007D2113 /* VideoViewController.m */; };
+		4F19A6D11F45950C007D2113 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F19A6D01F45950C007D2113 /* MineViewController.m */; };
+		4F19A6D51F45957B007D2113 /* GlobalNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F19A6D41F45957B007D2113 /* GlobalNavigationController.m */; };
+		4F19A6D81F45962C007D2113 /* GlobalTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F19A6D71F45962C007D2113 /* GlobalTabBarController.m */; };
 		7E4CEC9C345E2C8F61C5BD26 /* libPods-WangyYiNEWS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BE8CAA5283738E45659028A /* libPods-WangyYiNEWS.a */; };
 /* End PBXBuildFile section */
 
@@ -41,8 +47,8 @@
 		4F19A6801F458A3D007D2113 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4F19A6821F458A3D007D2113 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4F19A6831F458A3D007D2113 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4F19A6851F458A3D007D2113 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4F19A6861F458A3D007D2113 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4F19A6851F458A3D007D2113 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../../ViewController.h; sourceTree = "<group>"; };
+		4F19A6861F458A3D007D2113 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../../ViewController.m; sourceTree = "<group>"; };
 		4F19A6891F458A3D007D2113 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4F19A68B1F458A3D007D2113 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F19A68E1F458A3D007D2113 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -53,6 +59,18 @@
 		4F19A6A01F458A3D007D2113 /* WangyYiNEWSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WangyYiNEWSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F19A6A41F458A3D007D2113 /* WangyYiNEWSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WangyYiNEWSUITests.m; sourceTree = "<group>"; };
 		4F19A6A61F458A3D007D2113 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F19A6C61F45949C007D2113 /* FocusNewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FocusNewsViewController.h; sourceTree = "<group>"; };
+		4F19A6C71F45949C007D2113 /* FocusNewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FocusNewsViewController.m; sourceTree = "<group>"; };
+		4F19A6C91F4594CE007D2113 /* LiveBroadcastViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveBroadcastViewController.h; sourceTree = "<group>"; };
+		4F19A6CA1F4594CE007D2113 /* LiveBroadcastViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveBroadcastViewController.m; sourceTree = "<group>"; };
+		4F19A6CC1F4594F3007D2113 /* VideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoViewController.h; sourceTree = "<group>"; };
+		4F19A6CD1F4594F3007D2113 /* VideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoViewController.m; sourceTree = "<group>"; };
+		4F19A6CF1F45950C007D2113 /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		4F19A6D01F45950C007D2113 /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		4F19A6D31F45957B007D2113 /* GlobalNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalNavigationController.h; sourceTree = "<group>"; };
+		4F19A6D41F45957B007D2113 /* GlobalNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalNavigationController.m; sourceTree = "<group>"; };
+		4F19A6D61F45962C007D2113 /* GlobalTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalTabBarController.h; sourceTree = "<group>"; };
+		4F19A6D71F45962C007D2113 /* GlobalTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalTabBarController.m; sourceTree = "<group>"; };
 		A7039583D668F5EF41AB2F6F /* Pods-WangyYiNEWS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WangyYiNEWS.release.xcconfig"; path = "Pods/Target Support Files/Pods-WangyYiNEWS/Pods-WangyYiNEWS.release.xcconfig"; sourceTree = "<group>"; };
 		AF2E75AEBBDA18A75DBFF8A2 /* Pods-WangyYiNEWS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WangyYiNEWS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WangyYiNEWS/Pods-WangyYiNEWS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -125,10 +143,14 @@
 		4F19A67E1F458A3D007D2113 /* WangyYiNEWS */ = {
 			isa = PBXGroup;
 			children = (
+				4F19A6D21F459548007D2113 /* Global */,
+				4F19A6C21F4591EC007D2113 /* HomePage */,
+				4F19A6BE1F4591DD007D2113 /* FocusNews */,
+				4F19A6BA1F4591D5007D2113 /* Livebroadcast */,
+				4F19A6B61F4591CC007D2113 /* Video */,
+				4F19A6B21F4591BF007D2113 /* Mine */,
 				4F19A6821F458A3D007D2113 /* AppDelegate.h */,
 				4F19A6831F458A3D007D2113 /* AppDelegate.m */,
-				4F19A6851F458A3D007D2113 /* ViewController.h */,
-				4F19A6861F458A3D007D2113 /* ViewController.m */,
 				4F19A6881F458A3D007D2113 /* Main.storyboard */,
 				4F19A68B1F458A3D007D2113 /* Assets.xcassets */,
 				4F19A68D1F458A3D007D2113 /* LaunchScreen.storyboard */,
@@ -162,6 +184,182 @@
 				4F19A6A61F458A3D007D2113 /* Info.plist */,
 			);
 			path = WangyYiNEWSUITests;
+			sourceTree = "<group>";
+		};
+		4F19A6B21F4591BF007D2113 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				4F19A6B31F4591BF007D2113 /* Controllers */,
+				4F19A6B41F4591BF007D2113 /* Modes */,
+				4F19A6B51F4591BF007D2113 /* Views */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		4F19A6B31F4591BF007D2113 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4F19A6CF1F45950C007D2113 /* MineViewController.h */,
+				4F19A6D01F45950C007D2113 /* MineViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4F19A6B41F4591BF007D2113 /* Modes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modes;
+			sourceTree = "<group>";
+		};
+		4F19A6B51F4591BF007D2113 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4F19A6B61F4591CC007D2113 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				4F19A6B71F4591CC007D2113 /* Controllers */,
+				4F19A6B81F4591CC007D2113 /* Modes */,
+				4F19A6B91F4591CC007D2113 /* Views */,
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
+		4F19A6B71F4591CC007D2113 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4F19A6CC1F4594F3007D2113 /* VideoViewController.h */,
+				4F19A6CD1F4594F3007D2113 /* VideoViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4F19A6B81F4591CC007D2113 /* Modes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modes;
+			sourceTree = "<group>";
+		};
+		4F19A6B91F4591CC007D2113 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4F19A6BA1F4591D5007D2113 /* Livebroadcast */ = {
+			isa = PBXGroup;
+			children = (
+				4F19A6BB1F4591D5007D2113 /* Controllers */,
+				4F19A6BC1F4591D5007D2113 /* Modes */,
+				4F19A6BD1F4591D5007D2113 /* Views */,
+			);
+			path = Livebroadcast;
+			sourceTree = "<group>";
+		};
+		4F19A6BB1F4591D5007D2113 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4F19A6C91F4594CE007D2113 /* LiveBroadcastViewController.h */,
+				4F19A6CA1F4594CE007D2113 /* LiveBroadcastViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4F19A6BC1F4591D5007D2113 /* Modes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modes;
+			sourceTree = "<group>";
+		};
+		4F19A6BD1F4591D5007D2113 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4F19A6BE1F4591DD007D2113 /* FocusNews */ = {
+			isa = PBXGroup;
+			children = (
+				4F19A6BF1F4591DD007D2113 /* Controllers */,
+				4F19A6C01F4591DD007D2113 /* Modes */,
+				4F19A6C11F4591DD007D2113 /* Views */,
+			);
+			path = FocusNews;
+			sourceTree = "<group>";
+		};
+		4F19A6BF1F4591DD007D2113 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4F19A6C61F45949C007D2113 /* FocusNewsViewController.h */,
+				4F19A6C71F45949C007D2113 /* FocusNewsViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4F19A6C01F4591DD007D2113 /* Modes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modes;
+			sourceTree = "<group>";
+		};
+		4F19A6C11F4591DD007D2113 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4F19A6C21F4591EC007D2113 /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				4F19A6C31F4591EC007D2113 /* Controllers */,
+				4F19A6C41F4591EC007D2113 /* Modes */,
+				4F19A6C51F4591EC007D2113 /* Views */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		4F19A6C31F4591EC007D2113 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4F19A6851F458A3D007D2113 /* ViewController.h */,
+				4F19A6861F458A3D007D2113 /* ViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4F19A6C41F4591EC007D2113 /* Modes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modes;
+			sourceTree = "<group>";
+		};
+		4F19A6C51F4591EC007D2113 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4F19A6D21F459548007D2113 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				4F19A6D31F45957B007D2113 /* GlobalNavigationController.h */,
+				4F19A6D41F45957B007D2113 /* GlobalNavigationController.m */,
+				4F19A6D61F45962C007D2113 /* GlobalTabBarController.h */,
+				4F19A6D71F45962C007D2113 /* GlobalTabBarController.m */,
+			);
+			path = Global;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -348,9 +546,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F19A6C81F45949C007D2113 /* FocusNewsViewController.m in Sources */,
+				4F19A6D81F45962C007D2113 /* GlobalTabBarController.m in Sources */,
+				4F19A6D11F45950C007D2113 /* MineViewController.m in Sources */,
 				4F19A6871F458A3D007D2113 /* ViewController.m in Sources */,
+				4F19A6CE1F4594F3007D2113 /* VideoViewController.m in Sources */,
+				4F19A6D51F45957B007D2113 /* GlobalNavigationController.m in Sources */,
 				4F19A6841F458A3D007D2113 /* AppDelegate.m in Sources */,
 				4F19A6811F458A3D007D2113 /* main.m in Sources */,
+				4F19A6CB1F4594CE007D2113 /* LiveBroadcastViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -584,6 +788,7 @@
 				4F19A6AB1F458A3D007D2113 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4F19A6AC1F458A3D007D2113 /* Build configuration list for PBXNativeTarget "WangyYiNEWSTests" */ = {
 			isa = XCConfigurationList;
@@ -592,6 +797,7 @@
 				4F19A6AE1F458A3D007D2113 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4F19A6AF1F458A3D007D2113 /* Build configuration list for PBXNativeTarget "WangyYiNEWSUITests" */ = {
 			isa = XCConfigurationList;
@@ -600,6 +806,7 @@
 				4F19A6B11F458A3D007D2113 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
