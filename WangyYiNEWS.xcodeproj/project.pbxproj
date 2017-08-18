@@ -21,6 +21,10 @@
 		4F19A6D11F45950C007D2113 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F19A6D01F45950C007D2113 /* MineViewController.m */; };
 		4F19A6D51F45957B007D2113 /* GlobalNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F19A6D41F45957B007D2113 /* GlobalNavigationController.m */; };
 		4F19A6D81F45962C007D2113 /* GlobalTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F19A6D71F45962C007D2113 /* GlobalTabBarController.m */; };
+		4F19A6DB1F4684A9007D2113 /* MineTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F19A6DA1F4684A9007D2113 /* MineTableView.m */; };
+		4F19A6DE1F4691D5007D2113 /* MineTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F19A6DD1F4691D5007D2113 /* MineTableHeaderView.m */; };
+		4F19A6E11F469B8E007D2113 /* PersonPannelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F19A6E01F469B8E007D2113 /* PersonPannelView.m */; };
+		4F19A6E41F46B908007D2113 /* maskButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F19A6E31F46B908007D2113 /* maskButton.m */; };
 		7E4CEC9C345E2C8F61C5BD26 /* libPods-WangyYiNEWS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BE8CAA5283738E45659028A /* libPods-WangyYiNEWS.a */; };
 /* End PBXBuildFile section */
 
@@ -71,6 +75,14 @@
 		4F19A6D41F45957B007D2113 /* GlobalNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalNavigationController.m; sourceTree = "<group>"; };
 		4F19A6D61F45962C007D2113 /* GlobalTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalTabBarController.h; sourceTree = "<group>"; };
 		4F19A6D71F45962C007D2113 /* GlobalTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalTabBarController.m; sourceTree = "<group>"; };
+		4F19A6D91F4684A9007D2113 /* MineTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineTableView.h; sourceTree = "<group>"; };
+		4F19A6DA1F4684A9007D2113 /* MineTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineTableView.m; sourceTree = "<group>"; };
+		4F19A6DC1F4691D5007D2113 /* MineTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineTableHeaderView.h; sourceTree = "<group>"; };
+		4F19A6DD1F4691D5007D2113 /* MineTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineTableHeaderView.m; sourceTree = "<group>"; };
+		4F19A6DF1F469B8E007D2113 /* PersonPannelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonPannelView.h; sourceTree = "<group>"; };
+		4F19A6E01F469B8E007D2113 /* PersonPannelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonPannelView.m; sourceTree = "<group>"; };
+		4F19A6E21F46B908007D2113 /* maskButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = maskButton.h; sourceTree = "<group>"; };
+		4F19A6E31F46B908007D2113 /* maskButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = maskButton.m; sourceTree = "<group>"; };
 		A7039583D668F5EF41AB2F6F /* Pods-WangyYiNEWS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WangyYiNEWS.release.xcconfig"; path = "Pods/Target Support Files/Pods-WangyYiNEWS/Pods-WangyYiNEWS.release.xcconfig"; sourceTree = "<group>"; };
 		AF2E75AEBBDA18A75DBFF8A2 /* Pods-WangyYiNEWS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WangyYiNEWS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WangyYiNEWS/Pods-WangyYiNEWS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -215,6 +227,14 @@
 		4F19A6B51F4591BF007D2113 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				4F19A6D91F4684A9007D2113 /* MineTableView.h */,
+				4F19A6DA1F4684A9007D2113 /* MineTableView.m */,
+				4F19A6DC1F4691D5007D2113 /* MineTableHeaderView.h */,
+				4F19A6DD1F4691D5007D2113 /* MineTableHeaderView.m */,
+				4F19A6DF1F469B8E007D2113 /* PersonPannelView.h */,
+				4F19A6E01F469B8E007D2113 /* PersonPannelView.m */,
+				4F19A6E21F46B908007D2113 /* maskButton.h */,
+				4F19A6E31F46B908007D2113 /* maskButton.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -551,9 +571,13 @@
 				4F19A6D11F45950C007D2113 /* MineViewController.m in Sources */,
 				4F19A6871F458A3D007D2113 /* ViewController.m in Sources */,
 				4F19A6CE1F4594F3007D2113 /* VideoViewController.m in Sources */,
+				4F19A6E11F469B8E007D2113 /* PersonPannelView.m in Sources */,
 				4F19A6D51F45957B007D2113 /* GlobalNavigationController.m in Sources */,
 				4F19A6841F458A3D007D2113 /* AppDelegate.m in Sources */,
+				4F19A6DE1F4691D5007D2113 /* MineTableHeaderView.m in Sources */,
 				4F19A6811F458A3D007D2113 /* main.m in Sources */,
+				4F19A6E41F46B908007D2113 /* maskButton.m in Sources */,
+				4F19A6DB1F4684A9007D2113 /* MineTableView.m in Sources */,
 				4F19A6CB1F4594CE007D2113 /* LiveBroadcastViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
