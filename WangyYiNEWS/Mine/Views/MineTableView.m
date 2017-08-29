@@ -7,7 +7,7 @@
 //
 
 #import "MineTableView.h"
-
+#import "SetTableViewController.h"
 static  NSString * MineCellId = @"MineCellId";
 
 @interface MineTableView ()<UITableViewDelegate , UITableViewDataSource>
@@ -78,6 +78,50 @@ static  NSString * MineCellId = @"MineCellId";
 
 
     return 50;
+
+}
+-(CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section{
+
+    return 10.f;
+}
+-(CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section{
+
+    return 0.1f;
+}
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+
+
+    if (indexPath.section == 2) {
+        
+        if (indexPath.row == 0) {
+            
+            SetTableViewController * setTableView = [[SetTableViewController alloc] initWithStyle:UITableViewStyleGrouped];
+            
+            setTableView.hidesBottomBarWhenPushed =  YES;
+            setTableView.title = @"设置";
+            
+            [[self getViewController].navigationController pushViewController:setTableView animated:YES];
+            
+        }
+    }
+
+}
+//通过响应者链获得控制器
+-(UIViewController *)getViewController{
+
+    UIResponder * next = [self nextResponder];
+    
+    while (next != nil) {
+        
+        if ([next isKindOfClass:[UIViewController class]]) {
+            
+            return (UIViewController *)next;
+        }
+        
+        next = [next nextResponder];
+    }
+    
+    return nil;
 
 }
 /*

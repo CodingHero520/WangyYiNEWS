@@ -19,6 +19,20 @@
     // Do any additional setup after loading the view.
     self.navigationBar.barTintColor = [UIColor redColor];
     [self.navigationBar setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor whiteColor]}];
+    
+    
+}
+
+-(void)goback{
+    
+    [self.navigationController popViewControllerAnimated:YES];
+
+}
+
+-(void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated{
+
+    [super pushViewController:viewController animated:animated];
+    
 }
 
 - (void)didReceiveMemoryWarning {

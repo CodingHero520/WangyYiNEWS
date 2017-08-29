@@ -25,6 +25,18 @@
 		4F19A6DE1F4691D5007D2113 /* MineTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F19A6DD1F4691D5007D2113 /* MineTableHeaderView.m */; };
 		4F19A6E11F469B8E007D2113 /* PersonPannelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F19A6E01F469B8E007D2113 /* PersonPannelView.m */; };
 		4F19A6E41F46B908007D2113 /* maskButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F19A6E31F46B908007D2113 /* maskButton.m */; };
+		4F19A6E71F46C08C007D2113 /* maskIconButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F19A6E61F46C08C007D2113 /* maskIconButton.m */; };
+		4F19A6EA1F46C2FE007D2113 /* UIImage+ImageContnerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F19A6E91F46C2FE007D2113 /* UIImage+ImageContnerRadius.m */; };
+		4F19A6F71F46DA45007D2113 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F19A6F51F46DA45007D2113 /* RegisterViewController.m */; };
+		4F19A6F81F46DA45007D2113 /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F19A6F61F46DA45007D2113 /* RegisterViewController.xib */; };
+		4F19A6FC1F46DA8D007D2113 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F19A6FA1F46DA8D007D2113 /* LoginViewController.m */; };
+		4F19A6FD1F46DA8D007D2113 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F19A6FB1F46DA8D007D2113 /* LoginViewController.xib */; };
+		4F19A7001F46E694007D2113 /* AFNetRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F19A6FF1F46E694007D2113 /* AFNetRequestManager.m */; };
+		4F19A7041F4C10A2007D2113 /* RegisterNextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F19A7021F4C10A1007D2113 /* RegisterNextViewController.m */; };
+		4F19A7051F4C10A2007D2113 /* RegisterNextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F19A7031F4C10A1007D2113 /* RegisterNextViewController.xib */; };
+		4F19A7081F4D2774007D2113 /* GlobalWKWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F19A7071F4D2774007D2113 /* GlobalWKWebView.m */; };
+		4FAB0D011F5505A80051FA81 /* SetTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FAB0CFF1F5505A80051FA81 /* SetTableViewController.m */; };
+		4FAB0D021F5505A80051FA81 /* SetTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FAB0D001F5505A80051FA81 /* SetTableViewController.xib */; };
 		7E4CEC9C345E2C8F61C5BD26 /* libPods-WangyYiNEWS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BE8CAA5283738E45659028A /* libPods-WangyYiNEWS.a */; };
 /* End PBXBuildFile section */
 
@@ -83,6 +95,27 @@
 		4F19A6E01F469B8E007D2113 /* PersonPannelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonPannelView.m; sourceTree = "<group>"; };
 		4F19A6E21F46B908007D2113 /* maskButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = maskButton.h; sourceTree = "<group>"; };
 		4F19A6E31F46B908007D2113 /* maskButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = maskButton.m; sourceTree = "<group>"; };
+		4F19A6E51F46C08C007D2113 /* maskIconButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = maskIconButton.h; sourceTree = "<group>"; };
+		4F19A6E61F46C08C007D2113 /* maskIconButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = maskIconButton.m; sourceTree = "<group>"; };
+		4F19A6E81F46C2FE007D2113 /* UIImage+ImageContnerRadius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageContnerRadius.h"; sourceTree = "<group>"; };
+		4F19A6E91F46C2FE007D2113 /* UIImage+ImageContnerRadius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageContnerRadius.m"; sourceTree = "<group>"; };
+		4F19A6F31F46D6C1007D2113 /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		4F19A6F41F46DA45007D2113 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		4F19A6F51F46DA45007D2113 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		4F19A6F61F46DA45007D2113 /* RegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
+		4F19A6F91F46DA8D007D2113 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		4F19A6FA1F46DA8D007D2113 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		4F19A6FB1F46DA8D007D2113 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		4F19A6FE1F46E694007D2113 /* AFNetRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetRequestManager.h; sourceTree = "<group>"; };
+		4F19A6FF1F46E694007D2113 /* AFNetRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetRequestManager.m; sourceTree = "<group>"; };
+		4F19A7011F4C10A1007D2113 /* RegisterNextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterNextViewController.h; sourceTree = "<group>"; };
+		4F19A7021F4C10A1007D2113 /* RegisterNextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterNextViewController.m; sourceTree = "<group>"; };
+		4F19A7031F4C10A1007D2113 /* RegisterNextViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegisterNextViewController.xib; sourceTree = "<group>"; };
+		4F19A7061F4D2774007D2113 /* GlobalWKWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalWKWebView.h; sourceTree = "<group>"; };
+		4F19A7071F4D2774007D2113 /* GlobalWKWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalWKWebView.m; sourceTree = "<group>"; };
+		4FAB0CFE1F5505A80051FA81 /* SetTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetTableViewController.h; sourceTree = "<group>"; };
+		4FAB0CFF1F5505A80051FA81 /* SetTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetTableViewController.m; sourceTree = "<group>"; };
+		4FAB0D001F5505A80051FA81 /* SetTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SetTableViewController.xib; sourceTree = "<group>"; };
 		A7039583D668F5EF41AB2F6F /* Pods-WangyYiNEWS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WangyYiNEWS.release.xcconfig"; path = "Pods/Target Support Files/Pods-WangyYiNEWS/Pods-WangyYiNEWS.release.xcconfig"; sourceTree = "<group>"; };
 		AF2E75AEBBDA18A75DBFF8A2 /* Pods-WangyYiNEWS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WangyYiNEWS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WangyYiNEWS/Pods-WangyYiNEWS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -211,6 +244,8 @@
 		4F19A6B31F4591BF007D2113 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				4FAB0CFD1F5505390051FA81 /* 设置Controller */,
+				4F19A6EC1F46D2CE007D2113 /* 注册Controllers */,
 				4F19A6CF1F45950C007D2113 /* MineViewController.h */,
 				4F19A6D01F45950C007D2113 /* MineViewController.m */,
 			);
@@ -227,6 +262,7 @@
 		4F19A6B51F4591BF007D2113 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				4F19A6EB1F46D2B7007D2113 /* 注册views */,
 				4F19A6D91F4684A9007D2113 /* MineTableView.h */,
 				4F19A6DA1F4684A9007D2113 /* MineTableView.m */,
 				4F19A6DC1F4691D5007D2113 /* MineTableHeaderView.h */,
@@ -235,6 +271,10 @@
 				4F19A6E01F469B8E007D2113 /* PersonPannelView.m */,
 				4F19A6E21F46B908007D2113 /* maskButton.h */,
 				4F19A6E31F46B908007D2113 /* maskButton.m */,
+				4F19A6E51F46C08C007D2113 /* maskIconButton.h */,
+				4F19A6E61F46C08C007D2113 /* maskIconButton.m */,
+				4F19A6E81F46C2FE007D2113 /* UIImage+ImageContnerRadius.h */,
+				4F19A6E91F46C2FE007D2113 /* UIImage+ImageContnerRadius.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -378,8 +418,54 @@
 				4F19A6D41F45957B007D2113 /* GlobalNavigationController.m */,
 				4F19A6D61F45962C007D2113 /* GlobalTabBarController.h */,
 				4F19A6D71F45962C007D2113 /* GlobalTabBarController.m */,
+				4F19A6F31F46D6C1007D2113 /* Common.h */,
+				4F19A6FE1F46E694007D2113 /* AFNetRequestManager.h */,
+				4F19A6FF1F46E694007D2113 /* AFNetRequestManager.m */,
 			);
 			path = Global;
+			sourceTree = "<group>";
+		};
+		4F19A6EB1F46D2B7007D2113 /* 注册views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "注册views";
+			sourceTree = "<group>";
+		};
+		4F19A6EC1F46D2CE007D2113 /* 注册Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4F19A6F41F46DA45007D2113 /* RegisterViewController.h */,
+				4F19A6F51F46DA45007D2113 /* RegisterViewController.m */,
+				4F19A6F61F46DA45007D2113 /* RegisterViewController.xib */,
+				4F19A6F91F46DA8D007D2113 /* LoginViewController.h */,
+				4F19A6FA1F46DA8D007D2113 /* LoginViewController.m */,
+				4F19A6FB1F46DA8D007D2113 /* LoginViewController.xib */,
+				4F19A7011F4C10A1007D2113 /* RegisterNextViewController.h */,
+				4F19A7021F4C10A1007D2113 /* RegisterNextViewController.m */,
+				4F19A7031F4C10A1007D2113 /* RegisterNextViewController.xib */,
+				4F19A7061F4D2774007D2113 /* GlobalWKWebView.h */,
+				4F19A7071F4D2774007D2113 /* GlobalWKWebView.m */,
+			);
+			name = "注册Controllers";
+			sourceTree = "<group>";
+		};
+		4FAB0CFD1F5505390051FA81 /* 设置Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4FAB0D031F550D3E0051FA81 /* 个人设置 */,
+				4FAB0CFE1F5505A80051FA81 /* SetTableViewController.h */,
+				4FAB0CFF1F5505A80051FA81 /* SetTableViewController.m */,
+				4FAB0D001F5505A80051FA81 /* SetTableViewController.xib */,
+			);
+			name = "设置Controller";
+			sourceTree = "<group>";
+		};
+		4FAB0D031F550D3E0051FA81 /* 个人设置 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "个人设置";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -491,9 +577,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F19A6FD1F46DA8D007D2113 /* LoginViewController.xib in Resources */,
 				4F19A68F1F458A3D007D2113 /* LaunchScreen.storyboard in Resources */,
 				4F19A68C1F458A3D007D2113 /* Assets.xcassets in Resources */,
 				4F19A68A1F458A3D007D2113 /* Main.storyboard in Resources */,
+				4FAB0D021F5505A80051FA81 /* SetTableViewController.xib in Resources */,
+				4F19A7051F4C10A2007D2113 /* RegisterNextViewController.xib in Resources */,
+				4F19A6F81F46DA45007D2113 /* RegisterViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -567,15 +657,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F19A6C81F45949C007D2113 /* FocusNewsViewController.m in Sources */,
+				4F19A6F71F46DA45007D2113 /* RegisterViewController.m in Sources */,
 				4F19A6D81F45962C007D2113 /* GlobalTabBarController.m in Sources */,
 				4F19A6D11F45950C007D2113 /* MineViewController.m in Sources */,
+				4FAB0D011F5505A80051FA81 /* SetTableViewController.m in Sources */,
+				4F19A7041F4C10A2007D2113 /* RegisterNextViewController.m in Sources */,
 				4F19A6871F458A3D007D2113 /* ViewController.m in Sources */,
+				4F19A6E71F46C08C007D2113 /* maskIconButton.m in Sources */,
+				4F19A7001F46E694007D2113 /* AFNetRequestManager.m in Sources */,
+				4F19A6EA1F46C2FE007D2113 /* UIImage+ImageContnerRadius.m in Sources */,
+				4F19A6FC1F46DA8D007D2113 /* LoginViewController.m in Sources */,
 				4F19A6CE1F4594F3007D2113 /* VideoViewController.m in Sources */,
 				4F19A6E11F469B8E007D2113 /* PersonPannelView.m in Sources */,
 				4F19A6D51F45957B007D2113 /* GlobalNavigationController.m in Sources */,
 				4F19A6841F458A3D007D2113 /* AppDelegate.m in Sources */,
 				4F19A6DE1F4691D5007D2113 /* MineTableHeaderView.m in Sources */,
 				4F19A6811F458A3D007D2113 /* main.m in Sources */,
+				4F19A7081F4D2774007D2113 /* GlobalWKWebView.m in Sources */,
 				4F19A6E41F46B908007D2113 /* maskButton.m in Sources */,
 				4F19A6DB1F4684A9007D2113 /* MineTableView.m in Sources */,
 				4F19A6CB1F4594CE007D2113 /* LiveBroadcastViewController.m in Sources */,
@@ -728,6 +826,8 @@
 			baseConfigurationReference = AF2E75AEBBDA18A75DBFF8A2 /* Pods-WangyYiNEWS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/pc/Desktop/WangyYiNEWS/WangyYiNEWS/Global/Common.h;
 				INFOPLIST_FILE = WangyYiNEWS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jiucheng.WangyYiNEWS;
@@ -740,6 +840,8 @@
 			baseConfigurationReference = A7039583D668F5EF41AB2F6F /* Pods-WangyYiNEWS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/pc/Desktop/WangyYiNEWS/WangyYiNEWS/Global/Common.h;
 				INFOPLIST_FILE = WangyYiNEWS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jiucheng.WangyYiNEWS;

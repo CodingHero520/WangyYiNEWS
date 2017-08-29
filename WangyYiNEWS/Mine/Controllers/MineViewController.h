@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "MineTableHeaderView.h"
+#import "PersonPannelView.h"
 @interface MineViewController : UIViewController
-
+@property (nonatomic , strong)MineTableHeaderView * myTableHeader;
+@property (nonatomic , strong)PersonPannelView * PPView;
+@property (nonatomic , assign)BOOL ISLogin;
 @end

@@ -43,8 +43,9 @@
         
         _loginButton.titleLabel.font = [UIFont systemFontOfSize:15];
         
+        _loginButton.tag = 10000;
         
-        
+        [_loginButton addTarget:self action:@selector(TipRegisterOrLoginButton:) forControlEvents:UIControlEventTouchUpInside];
     }
 
     return _loginButton;
@@ -61,7 +62,10 @@
         [_registerButton setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
         
         _registerButton.titleLabel.font = [UIFont systemFontOfSize:15];
+      
+        _registerButton.tag = 10001;
         
+        [_registerButton addTarget:self action:@selector(TipRegisterOrLoginButton:) forControlEvents:UIControlEventTouchUpInside];
     
     }
 
@@ -82,13 +86,22 @@
     return _maskview;
 
 }
+-(void)TipRegisterOrLoginButton:(UIButton *)Button{
+    
+    if (self.JumpBlock) {
+        
+        self.JumpBlock(Button.tag);
+        
+    }
+
+}
 -(void)layoutSubviews{
 
     [super layoutSubviews];
 
     [_loginButton mas_makeConstraints:^(MASConstraintMaker *make) {
         
-        make.top.mas_equalTo(@(45));
+        make.top.mas_equalTo(@(35));
         
         make.left.mas_equalTo(@(25));
         
@@ -98,7 +111,7 @@
     
     [_registerButton mas_makeConstraints:^(MASConstraintMaker *make) {
         
-        make.top.mas_equalTo(@(45));
+        make.top.mas_equalTo(@(35));
         
         make.right.mas_equalTo(self.mas_right).offset(-25);
         

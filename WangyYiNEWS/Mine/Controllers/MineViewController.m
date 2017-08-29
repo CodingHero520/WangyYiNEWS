@@ -8,16 +8,14 @@
 
 #import "MineViewController.h"
 #import "MineTableView.h"
-#import "MineTableHeaderView.h"
-#import "PersonPannelView.h"
-#define KWIDTH [UIScreen mainScreen].bounds.size.width
-#define kHEIGHT [UIScreen mainScreen].bounds.size.height
-#define RGBCOLOR(r,g,b,a) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:a]
+//#import "MineTableHeaderView.h"
+//#import "PersonPannelView.h"
+#import "RegisterViewController.h"
+#import "LoginViewController.h"
+#import "Common.h"
 @interface MineViewController ()
 
 @property (nonatomic , strong)MineTableView * myTable;
-@property (nonatomic , strong)MineTableHeaderView * myTableHeader;
-@property (nonatomic , strong)PersonPannelView * PPView;
 @property (nonatomic , strong)NSMutableArray * infoArray;
 @end
 
@@ -67,6 +65,22 @@
         _myTableHeader.backgroundColor = RGBCOLOR(191, 41, 42, 1);
     }
 
+    __weak typeof(self)weakself = self;
+    
+    _myTableHeader.JumpBlock = ^(NSInteger index){
+    
+        UIViewController * vc = index == 10001? [[RegisterViewController alloc] initWithNibName:@"RegisterViewController" bundle:[NSBundle mainBundle]]:[[LoginViewController alloc] initWithNibName:@"LoginViewController" bundle:[NSBundle mainBundle]];
+        
+        vc.title = index == 10001? @"注册网易通行证":@"登陆网易新闻";
+        
+        vc.hidesBottomBarWhenPushed = YES;
+        
+        [weakself.navigationController pushViewController:vc animated:YES];
+    
+    };
+    
+    
+    
     return _myTableHeader;
 
 }
@@ -80,6 +94,7 @@
         
         [self.view bringSubviewToFront:_PPView];
         
+        
     }
 
     return _PPView;
@@ -90,6 +105,25 @@
     [super viewWillAppear:animated];
 
     self.navigationController.navigationBar.hidden = YES;
+
+    
+    self.myTableHeader.loginButton.hidden = self.ISLogin;
+    
+    self.myTableHeader.registerButton.hidden = self.ISLogin;
+    
+    self.PPView.WXButton.hidden = self.ISLogin;
+    
+    self.PPView.SinaButton.hidden = self.ISLogin;
+    
+    self.PPView.QQButton.hidden = self.ISLogin;
+    
+    self.PPView.YIButton.hidden = self.ISLogin;
+    
+    self.PPView.loginPersonImage.hidden = !self.ISLogin;
+    
+    self.PPView.loginPersonLabel.hidden = !self.ISLogin;
+    
+    self.PPView.loginPersonRank.hidden = !self.ISLogin;
 }
 
 - (void)didReceiveMemoryWarning {
