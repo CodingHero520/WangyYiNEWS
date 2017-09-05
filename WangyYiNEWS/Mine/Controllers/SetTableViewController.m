@@ -7,7 +7,7 @@
 //
 
 #import "SetTableViewController.h"
-
+#import "PersonSetTableViewController.h"
 @interface SetTableViewController ()
 
 @property (nonatomic,strong)NSMutableArray * dataArray;
@@ -71,7 +71,7 @@
     if (cell == nil) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:@"reuseId"];
     }
-    cell.accessoryType = UITableViewCellAccessoryCheckmark;
+    cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     
     NSArray * subtitle = @[@"系统字体",@"中",@"简体中文"];
     
@@ -87,6 +87,7 @@
     
     return cell;
 }
+
 -(CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section{
 
     return 0.01;
@@ -94,6 +95,21 @@
 -(CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section{
 
     return 15;
+
+}
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+
+
+    if (indexPath.section == 0 || indexPath.row == 0) {
+        
+        PersonSetTableViewController * PSTVC = [[PersonSetTableViewController alloc] initWithStyle:UITableViewStyleGrouped];
+        
+        PSTVC.hidesBottomBarWhenPushed = YES;
+        
+        PSTVC.title = @"个人设置";
+        
+        [self.navigationController pushViewController:PSTVC animated:YES];
+    }
 
 }
 

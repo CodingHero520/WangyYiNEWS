@@ -37,6 +37,13 @@
 		4F19A7081F4D2774007D2113 /* GlobalWKWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F19A7071F4D2774007D2113 /* GlobalWKWebView.m */; };
 		4FAB0D011F5505A80051FA81 /* SetTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FAB0CFF1F5505A80051FA81 /* SetTableViewController.m */; };
 		4FAB0D021F5505A80051FA81 /* SetTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FAB0D001F5505A80051FA81 /* SetTableViewController.xib */; };
+		4FAB0D071F550E940051FA81 /* PersonSetTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FAB0D051F550E940051FA81 /* PersonSetTableViewController.m */; };
+		4FAB0D081F550E940051FA81 /* PersonSetTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FAB0D061F550E940051FA81 /* PersonSetTableViewController.xib */; };
+		4FAB0D211F565C490051FA81 /* UpdateAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FAB0D201F565C490051FA81 /* UpdateAlert.m */; };
+		4FAB0D241F57A6F90051FA81 /* BLDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FAB0D231F57A6F90051FA81 /* BLDatePickerView.m */; };
+		4FAB0D281F592AB00051FA81 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FAB0D261F592AB00051FA81 /* TableViewCell.m */; };
+		4FAB0D291F592AB00051FA81 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FAB0D271F592AB00051FA81 /* TableViewCell.xib */; };
+		4FAB0D2D1F593B920051FA81 /* 0.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FAB0D2C1F593B920051FA81 /* 0.png */; };
 		7E4CEC9C345E2C8F61C5BD26 /* libPods-WangyYiNEWS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BE8CAA5283738E45659028A /* libPods-WangyYiNEWS.a */; };
 /* End PBXBuildFile section */
 
@@ -116,6 +123,17 @@
 		4FAB0CFE1F5505A80051FA81 /* SetTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetTableViewController.h; sourceTree = "<group>"; };
 		4FAB0CFF1F5505A80051FA81 /* SetTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetTableViewController.m; sourceTree = "<group>"; };
 		4FAB0D001F5505A80051FA81 /* SetTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SetTableViewController.xib; sourceTree = "<group>"; };
+		4FAB0D041F550E940051FA81 /* PersonSetTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonSetTableViewController.h; sourceTree = "<group>"; };
+		4FAB0D051F550E940051FA81 /* PersonSetTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonSetTableViewController.m; sourceTree = "<group>"; };
+		4FAB0D061F550E940051FA81 /* PersonSetTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PersonSetTableViewController.xib; sourceTree = "<group>"; };
+		4FAB0D1F1F565C490051FA81 /* UpdateAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpdateAlert.h; sourceTree = "<group>"; };
+		4FAB0D201F565C490051FA81 /* UpdateAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UpdateAlert.m; sourceTree = "<group>"; };
+		4FAB0D221F57A6F90051FA81 /* BLDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLDatePickerView.h; sourceTree = "<group>"; };
+		4FAB0D231F57A6F90051FA81 /* BLDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLDatePickerView.m; sourceTree = "<group>"; };
+		4FAB0D251F592AB00051FA81 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		4FAB0D261F592AB00051FA81 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		4FAB0D271F592AB00051FA81 /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		4FAB0D2C1F593B920051FA81 /* 0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0.png; sourceTree = "<group>"; };
 		A7039583D668F5EF41AB2F6F /* Pods-WangyYiNEWS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WangyYiNEWS.release.xcconfig"; path = "Pods/Target Support Files/Pods-WangyYiNEWS/Pods-WangyYiNEWS.release.xcconfig"; sourceTree = "<group>"; };
 		AF2E75AEBBDA18A75DBFF8A2 /* Pods-WangyYiNEWS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WangyYiNEWS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WangyYiNEWS/Pods-WangyYiNEWS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -262,6 +280,7 @@
 		4F19A6B51F4591BF007D2113 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				4FAB0D1E1F565B8C0051FA81 /* 个人设置 */,
 				4F19A6EB1F46D2B7007D2113 /* 注册views */,
 				4F19A6D91F4684A9007D2113 /* MineTableView.h */,
 				4F19A6DA1F4684A9007D2113 /* MineTableView.m */,
@@ -275,6 +294,9 @@
 				4F19A6E61F46C08C007D2113 /* maskIconButton.m */,
 				4F19A6E81F46C2FE007D2113 /* UIImage+ImageContnerRadius.h */,
 				4F19A6E91F46C2FE007D2113 /* UIImage+ImageContnerRadius.m */,
+				4FAB0D251F592AB00051FA81 /* TableViewCell.h */,
+				4FAB0D261F592AB00051FA81 /* TableViewCell.m */,
+				4FAB0D271F592AB00051FA81 /* TableViewCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -414,6 +436,7 @@
 		4F19A6D21F459548007D2113 /* Global */ = {
 			isa = PBXGroup;
 			children = (
+				4FAB0D2C1F593B920051FA81 /* 0.png */,
 				4F19A6D31F45957B007D2113 /* GlobalNavigationController.h */,
 				4F19A6D41F45957B007D2113 /* GlobalNavigationController.m */,
 				4F19A6D61F45962C007D2113 /* GlobalTabBarController.h */,
@@ -464,6 +487,20 @@
 		4FAB0D031F550D3E0051FA81 /* 个人设置 */ = {
 			isa = PBXGroup;
 			children = (
+				4FAB0D041F550E940051FA81 /* PersonSetTableViewController.h */,
+				4FAB0D051F550E940051FA81 /* PersonSetTableViewController.m */,
+				4FAB0D061F550E940051FA81 /* PersonSetTableViewController.xib */,
+			);
+			name = "个人设置";
+			sourceTree = "<group>";
+		};
+		4FAB0D1E1F565B8C0051FA81 /* 个人设置 */ = {
+			isa = PBXGroup;
+			children = (
+				4FAB0D1F1F565C490051FA81 /* UpdateAlert.h */,
+				4FAB0D201F565C490051FA81 /* UpdateAlert.m */,
+				4FAB0D221F57A6F90051FA81 /* BLDatePickerView.h */,
+				4FAB0D231F57A6F90051FA81 /* BLDatePickerView.m */,
 			);
 			name = "个人设置";
 			sourceTree = "<group>";
@@ -538,6 +575,7 @@
 				TargetAttributes = {
 					4F19A67B1F458A3D007D2113 = {
 						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 9E798LNYML;
 						ProvisioningStyle = Automatic;
 					};
 					4F19A6941F458A3D007D2113 = {
@@ -581,8 +619,11 @@
 				4F19A68F1F458A3D007D2113 /* LaunchScreen.storyboard in Resources */,
 				4F19A68C1F458A3D007D2113 /* Assets.xcassets in Resources */,
 				4F19A68A1F458A3D007D2113 /* Main.storyboard in Resources */,
+				4FAB0D291F592AB00051FA81 /* TableViewCell.xib in Resources */,
 				4FAB0D021F5505A80051FA81 /* SetTableViewController.xib in Resources */,
+				4FAB0D2D1F593B920051FA81 /* 0.png in Resources */,
 				4F19A7051F4C10A2007D2113 /* RegisterNextViewController.xib in Resources */,
+				4FAB0D081F550E940051FA81 /* PersonSetTableViewController.xib in Resources */,
 				4F19A6F81F46DA45007D2113 /* RegisterViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -656,6 +697,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FAB0D211F565C490051FA81 /* UpdateAlert.m in Sources */,
 				4F19A6C81F45949C007D2113 /* FocusNewsViewController.m in Sources */,
 				4F19A6F71F46DA45007D2113 /* RegisterViewController.m in Sources */,
 				4F19A6D81F45962C007D2113 /* GlobalTabBarController.m in Sources */,
@@ -663,15 +705,18 @@
 				4FAB0D011F5505A80051FA81 /* SetTableViewController.m in Sources */,
 				4F19A7041F4C10A2007D2113 /* RegisterNextViewController.m in Sources */,
 				4F19A6871F458A3D007D2113 /* ViewController.m in Sources */,
+				4FAB0D281F592AB00051FA81 /* TableViewCell.m in Sources */,
 				4F19A6E71F46C08C007D2113 /* maskIconButton.m in Sources */,
 				4F19A7001F46E694007D2113 /* AFNetRequestManager.m in Sources */,
 				4F19A6EA1F46C2FE007D2113 /* UIImage+ImageContnerRadius.m in Sources */,
 				4F19A6FC1F46DA8D007D2113 /* LoginViewController.m in Sources */,
 				4F19A6CE1F4594F3007D2113 /* VideoViewController.m in Sources */,
 				4F19A6E11F469B8E007D2113 /* PersonPannelView.m in Sources */,
+				4FAB0D071F550E940051FA81 /* PersonSetTableViewController.m in Sources */,
 				4F19A6D51F45957B007D2113 /* GlobalNavigationController.m in Sources */,
 				4F19A6841F458A3D007D2113 /* AppDelegate.m in Sources */,
 				4F19A6DE1F4691D5007D2113 /* MineTableHeaderView.m in Sources */,
+				4FAB0D241F57A6F90051FA81 /* BLDatePickerView.m in Sources */,
 				4F19A6811F458A3D007D2113 /* main.m in Sources */,
 				4F19A7081F4D2774007D2113 /* GlobalWKWebView.m in Sources */,
 				4F19A6E41F46B908007D2113 /* maskButton.m in Sources */,
@@ -826,11 +871,13 @@
 			baseConfigurationReference = AF2E75AEBBDA18A75DBFF8A2 /* Pods-WangyYiNEWS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 9E798LNYML;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = /Users/pc/Desktop/WangyYiNEWS/WangyYiNEWS/Global/Common.h;
 				INFOPLIST_FILE = WangyYiNEWS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jiucheng.WangyYiNEWS;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiucheng.WangyYiNEWS1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -840,11 +887,13 @@
 			baseConfigurationReference = A7039583D668F5EF41AB2F6F /* Pods-WangyYiNEWS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 9E798LNYML;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = /Users/pc/Desktop/WangyYiNEWS/WangyYiNEWS/Global/Common.h;
 				INFOPLIST_FILE = WangyYiNEWS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jiucheng.WangyYiNEWS;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiucheng.WangyYiNEWS1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

@@ -38,6 +38,14 @@
 }
 -(void)loginAction:(UIButton *)button{
     
+ 
+    //保存手机号
+    [[NSUserDefaults standardUserDefaults]setValue:self.InputTelphone.text forKey:@"username"];
+    //保存密码
+    [[NSUserDefaults standardUserDefaults]setValue:self.InputLoginPassword.text forKey:@"password"];
+    
+    
+    
     NSLog(@"电话号码:%@",self.InputTelphone.text);
 
     NSString * urlstr = [NSString stringWithFormat:@"http://localhost:63342/MySql/login.php?telphone0=%@&logpassword=%@",self.InputTelphone.text,self.InputLoginPassword.text];
@@ -90,8 +98,11 @@
             MineViewController * mine = (MineViewController *)controller;
             
             mine.ISLogin = YES;
-            mine.PPView.loginPersonLabel.text = AFNDictionary[@"username"];
+            mine.PPView.loginPersonLabel.text = AFNDictionary[@"newname"];
             mine.PPView.loginPersonRank.text = AFNDictionary[@"userrank"];
+        
+            //保存网名
+            [[NSUserDefaults standardUserDefaults]setValue:AFNDictionary[@"newname"] forKey:@"newname"];
             
             [self.navigationController popToViewController:mine animated:YES];
             

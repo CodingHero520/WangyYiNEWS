@@ -13,6 +13,8 @@
 #import "RegisterViewController.h"
 #import "LoginViewController.h"
 #import "Common.h"
+#import "AFNetRequestManager.h"
+#import "UIButton+WebCache.h"
 @interface MineViewController ()
 
 @property (nonatomic , strong)MineTableView * myTable;
@@ -124,6 +126,33 @@
     self.PPView.loginPersonLabel.hidden = !self.ISLogin;
     
     self.PPView.loginPersonRank.hidden = !self.ISLogin;
+    
+    //这里需要请求借口，在没吃进来的时候
+    [self loginload];
+}
+-(void)loginload{
+
+    NSString * username = [[NSUserDefaults standardUserDefaults] valueForKey:@"username"];
+    NSString * password = [[NSUserDefaults standardUserDefaults] valueForKey:@"password"];
+
+    if (username.length != 0 && password.length != 0) {
+        
+        NSString * urlstr = [NSString stringWithFormat:@"http://localhost:63342/MySql/mine.php?telphone0=%@&logpassword=%@",username,password];
+        
+        [AFNetRequestManager PostRequestWithURLString:urlstr WithParameter:nil WithSuccessBlock:^(id object) {
+            
+            NSLog(@"主页数据:%@",object);
+            
+            NSDictionary * dict = (NSDictionary *)object;
+            self.PPView.loginPersonLabel.text = dict[@"newname"];
+            [self.PPView.loginPersonImage sd_setBackgroundImageWithURL:[NSURL URLWithString:dict[@"userheader"]] forState:UIControlStateNormal];
+            
+            
+        } WithFailureBlock:^(NSError *error) {
+            
+        }];
+    }
+    
 }
 
 - (void)didReceiveMemoryWarning {

@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import <UIKit/UIKit.h>
 typedef void(^SuccessfulBlock)(id object);
 typedef void(^FailureBlcok)(NSError * error);
 
@@ -17,5 +17,8 @@ typedef void(^FailureBlcok)(NSError * error);
 @property (nonatomic , copy)FailureBlcok failblock;
 
 +(void)PostRequestWithURLString:(NSString *)urlStr WithParameter:(NSDictionary *)parameters WithSuccessBlock:(SuccessfulBlock )sussessful WithFailureBlock:(FailureBlcok )failure;
+
++(void)Post:(NSString *)url image:(UIImage *)image name:(NSString *)name WithSuccessBlock:(SuccessfulBlock)success WithFailureBlock:(FailureBlcok )failure;
+
 
 @end
